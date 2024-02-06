@@ -7,7 +7,7 @@ import { analytics } from "./Helper/index"
 import { logEvent } from "firebase/analytics";
 import Chat from "./pages/Chat";
 import Quiz from "./pages/Quiz";
-import Login from "./pages/Login";
+
 import Loginpage from "./pages/Loginpage";
 import About from "./pages/About";
 import Types from "./pages/Types";
@@ -28,7 +28,6 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/quiz" element={<Quiz />} />
-        <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/loginpage" element={<Loginpage />} />
         <Route path="/types" element={<Types />} />

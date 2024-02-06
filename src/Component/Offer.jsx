@@ -72,7 +72,7 @@ const Offer = ({ handleOrderPopup }) => {
       variant="gradient"
       gradient={{ from: 'rgba(171, 159, 159, 1)', to: 'rgba(140, 191, 191, 1)', deg: 0 }}
     >
-   <Link to={"/login"}> Login Now</Link>
+   <Link to={"/signin"}> Login Now</Link>
     </Button>
               </div>
             </div>
