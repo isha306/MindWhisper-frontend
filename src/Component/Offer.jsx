@@ -30,16 +30,16 @@ const ProductsData = [
 const Offer = ({ handleOrderPopup }) => {
   return (
     <div>
-      <div className="container">
+      <div className="container flex flex-col">
         {/* Header section */}
-        <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary font-semibold">
+        <div className=" mb-24 text-center">
+          <p data-aos="fade-up" className="text-sm text-primary  text-black font-semibold">
             What We Offer
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-Salsa">
+          <h1 data-aos="fade-up" className="text-3xl text-[#cdb296] font-Salsa">
             Healing Process
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
+          <p data-aos="fade-up" className="text-xs text-[#8a653f]">
            Mental Health Is Not A Weakness
           </p>
         </div>
@@ -48,7 +48,7 @@ const Offer = ({ handleOrderPopup }) => {
           {ProductsData.map((data) => (
             <div
               data-aos="zoom-in"
-              className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
+              className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-[#efdecd] dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
             >
               {/* image section */}
               <div className="h-[100px]">
@@ -64,13 +64,13 @@ const Offer = ({ handleOrderPopup }) => {
                 <div className="w-full flex items-center justify-center gap-1">
                
                 </div>
-                <h1 className="text-xl font-bold">{data.title}</h1>
+                <h1 className="text-xl text-black font-bold">{data.title}</h1>
                 <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2">
                   {data.description}
                 </p>
                 <Button
       variant="gradient"
-      gradient={{ from: 'rgba(171, 159, 159, 1)', to: 'rgba(140, 191, 191, 1)', deg: 0 }}
+      gradient={{ from: 'rgba(181, 136, 136, 1)', to: 'rgba(143, 109, 97, 1)', deg: 0 }}
     >
    <Link to={"/signin"}> Login Now</Link>
     </Button>

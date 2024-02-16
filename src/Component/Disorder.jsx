@@ -47,18 +47,8 @@ const ProductsData = [
   
   const Products = () => {
     return (
-      <div className="mt-14 mb-12">
-        <div className="container">
-          {/* Header section */}
-          <div className="text-center mb-10 max-w-[600px] mx-auto">
-           
-            <h1 data-aos="fade-up" className="text-3xl font-Salsa">
-            Types of Mental Health Disorder
-            </h1>
-            <p data-aos="fade-up" className="text-xs text-primary  text-gray-400">
-              what mental health needs is more sunlight ,more candor , and more unshamed conversation
-            </p>
-          </div>
+      <div className=" mb-12 ">
+       <div>
           {/* Body section */}
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
@@ -90,7 +80,7 @@ const ProductsData = [
             <div className="flex justify-center mt-10">
             <Button
       variant="gradient"
-      gradient={{ from: 'rgba(171, 159, 159, 1)', to: 'rgba(140, 191, 191, 1)', deg: 0 }}
+      gradient={{ from: 'rgba(181, 136, 136, 1)', to: 'rgba(143, 109, 97, 1)', deg: 0 }}
     >
      <Link to={"/types"}> Know More</Link>
     </Button>

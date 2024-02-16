@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { Button } from "@mantine/core";
+import Social from '../Component/Social';
+
 
 
 function Contact() {
@@ -59,12 +61,14 @@ function Contact() {
         </div>
        
       <div className='flex justify-center mt-10'>
-      <Button
-      variant="gradient"
-      gradient={{ from: 'rgba(171, 159, 159, 1)', to: 'rgba(140, 191, 191, 1)', deg: 0 }} >
-      Send
-    </Button>
+      <button className=' rounded-full  mt-auto flex flex-col   items-center flex justify-center  cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg
+    border-blue-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+    active:border-b-[2px] active:brightness-90 active:translate-y-[2px] ' onClick={Contact}>Submit</button>
+
       </div>
+      <div className='mt-5'>
+          <Social/>
+        </div>
       </form>
     </div>
   )

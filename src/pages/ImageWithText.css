@@ -1,0 +1,22 @@
+.image-container {
+    position:relative ;
+    display: inline-block;
+    left: 400px;
+    
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 10px; /* Adjust as per your requirement */
+    left: 10px; /* Adjust as per your requirement */
+    top: 2px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-display: swap;
+    font-weight: bold;
+    background-color: none; /* Semi-transparent black background */
+    padding: 10px;
+    
+  }

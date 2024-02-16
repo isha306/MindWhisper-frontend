@@ -5,6 +5,7 @@ import Card from '../Component/Card';
 import IMG1 from "../assets/isha.jpg";
 import IMG2 from "../assets/mani.jpg";
 import IMG3 from "../assets/akanksha.jpg";
+
 import { useEffect } from "react"
 
 const About = () => {

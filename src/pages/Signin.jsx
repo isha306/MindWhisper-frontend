@@ -83,7 +83,7 @@ export default function Signin() {
 
   }
   return (
-    <div>
+    <div className='mt-10'>
     <p className='text-black flex justify-center'>{message}</p>
     <div className='flex justify-evenly w-50 h-100'>
         
@@ -96,8 +96,8 @@ export default function Signin() {
                
 					<label for="chk" aria-hidden="true">Login</label>
                     
-                    <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='username' required />
-					<input type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='password' required />
+                    <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email' required />
+					<input type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required />
 				
 					<button onClick={handleLogin} type='submit'>Login</button>
                     

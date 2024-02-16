@@ -19,7 +19,7 @@ const Banner = () => {
 
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
-            <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-Salsa">
+            <h1 data-aos="fade-up" className="text-3xl text-[#caa887] sm:text-4xl font-Salsa">
               Mental Health
             </h1>
             <p
@@ -31,19 +31,19 @@ const Banner = () => {
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
                 
-                <p> ~ Love Yourself</p>
+                <p className="text-yellow-500"> ~ Love Yourself</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 
-                <p> ~ Take Care Of Your Self</p>
+                <p className="text-red-500"> ~ Take Care Of Your Self</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 
-                <p> ~ Happiness Is Key</p>
+                <p className="text-green-500"> ~ Happiness Is Key</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                
-                <p> ~ Get Help</p>
+                <p className="text-blue-500"> ~ Get Help</p>
               </div>
             </div>
           </div>

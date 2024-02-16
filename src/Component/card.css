@@ -48,7 +48,7 @@
 }
 
 .card a:hover {
-  color: red;
+  color: rgb(251, 246, 246);
 }
 
 .card button {
@@ -58,13 +58,13 @@
   border-radius: 25px;
   border: none;
   font-weight: bold;
-  background: #ffffff;
+  background: #e49292;
   color: rgb(0, 0, 0);
   transition: .4s ease-in-out;
 }
 
 .card button:hover {
-  background: red;
+  background: rgb(136, 75, 77);
   color: white;
   cursor: pointer;
 }
